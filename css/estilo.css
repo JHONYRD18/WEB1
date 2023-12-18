@@ -141,4 +141,24 @@ h3 {
     border: none;
 }
 
+.contenedor-campos {
+
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input  text {
+    width: 100%;
+    border: none;
+    color: #004caf;
+}
 /* Fin de la sección Contacto*/
