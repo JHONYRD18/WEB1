@@ -113,12 +113,14 @@ h3 {
 }
 
 .detalle h3{
-    
+    font-weight: normal;
+}
+.detalle p{
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .detalle .icono{
-    height: 15px;
-    width: 15px;
     font-size: 20px;
     display: flex;
     justify-content: space-evenly;
