@@ -89,6 +89,7 @@ h3 {
 }
 /* Fin de la portada*/
 
+/* Inicio de la sección servicio*/
 .contenedor {
     max-width: 100%;
     margin: 0 20px;
@@ -97,5 +98,8 @@ h3 {
 
 .detalles {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
 }
+/* Fin de la sección servicio*/
