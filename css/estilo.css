@@ -139,6 +139,7 @@ header{
 
 @media screen and (max-width: 768px){
     .portada {
+        width: 100%;
         background-image: url(../Img/Portada.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -203,6 +204,7 @@ header{
 
 @media screen and (max-width: 768px){
     .contenedor {
+        width: 100%;
         margin-top: 20px; 
         margin-bottom: 20px;
     }
@@ -311,9 +313,9 @@ header{
     color: #ffffff;
 }
 
-@media screen and (max-width: 408px) {
+@media screen and (max-width: 768px) {
     .propiedad {
-        padding: 0.1em;
+        padding: 1em;
     }
 }
 /* Fin de la sección Propiedad*/
