@@ -19,14 +19,19 @@ span {
 }
 
 h2 {
-    font-size: 2.4em;
+    font-size: 2.8em;
     text-align: center;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.8em;
     text-align: center;
 }
+
+P {
+    font-size: 1.45em;
+}
+
 
 /* Inicio de la navbarra*/
 .nav{
@@ -49,9 +54,10 @@ h3 {
 .nav ul li a {
     display: block;
     color: white;
-    padding: 15px 20px; 
+    padding: 30px 40px; 
     text-align: center;
     text-decoration: none;
+    font-size: 1.8em;
 }
 
 .nav a:hover {
@@ -65,7 +71,7 @@ h3 {
     background-image: url(../Img/Portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 340PX;
+    height: 470PX;
     position: relative;
 }
 
@@ -93,6 +99,8 @@ h3 {
 .contenedor {
     max-width: 120em;
     margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
 
 .contenedor h2 {
@@ -134,7 +142,7 @@ h3 {
 
 .formulario {
     background-color: #ffffff;
-    width: 100%;
+    width: min (80px 100%);
     margin: 0 auto;
     padding: 2em;
     display: grid;
@@ -196,3 +204,15 @@ h3 {
     padding-top: 12px;
 }
 /* Fin de la sección Contacto*/
+
+/* Inicio de la sección Propiedad*/
+
+.propiedad{
+    background-color: #000000;   
+    width: 100%;
+    padding: .03em;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Fin de la sección Propiedad*/
