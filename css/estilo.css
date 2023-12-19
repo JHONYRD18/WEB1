@@ -180,7 +180,19 @@ h3 {
     width: 100%;
     padding: 1em;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     border: 0;
+}
+
+.enviar .botton:hover,
+.enviar .botton:focus {
+    background-color: #1e75e7;
+    transition: background-color 1s ease-in-out;
+    outline: 0;
+}
+
+.mensaje{
+    color: #757575;
+    padding-top: 12px;
 }
 /* Fin de la sección Contacto*/
