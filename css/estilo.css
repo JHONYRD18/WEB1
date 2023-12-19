@@ -311,9 +311,9 @@ header{
     color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 408px) {
     .propiedad {
-        padding: 1em;
+        padding: 0.1em;
     }
 }
 /* Fin de la sección Propiedad*/
