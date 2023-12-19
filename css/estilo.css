@@ -158,6 +158,14 @@ header{
         position: center;
     }
 }
+@media screen and (max-width: 512px){
+
+    .contenido-portada h2,
+    .contenido-portada p {
+        position: center;
+        text-align: center;
+    }
+}
 /* Fin de la portada*/
 
 /* Inicio de la sección servicio*/
@@ -177,7 +185,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 .detalle {
@@ -225,6 +233,15 @@ header{
     .detalle .icono {
         flex-direction: column; 
         font-size: 30px; 
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .detalle h3{
+        font-size: 25px;
+    } 
+    .detalle p{
+        font-size: 19px; 
     }
 }
 /* Fin de la sección servicio*/
@@ -302,6 +319,12 @@ header{
         gap: 0;
     }
 }
+
+@media screen and (max-width: 512px) {
+    h2{
+        font-size: 35px; 
+    }
+}
 /* Fin de la sección Contacto*/
 
 /* Inicio de la sección Propiedad*/
@@ -318,6 +341,13 @@ header{
     .propiedad {
         width: auto;
         padding: 1em;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .propiedad p,
+    .propiedad b{  
+        font-size: 19px;  
     }
 }
 /* Fin de la sección Propiedad*/
