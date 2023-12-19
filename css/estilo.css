@@ -27,10 +27,34 @@ P {
     font-size: 1.45em;
 }
 
+/* Inicio del header*/
 header{
     text-align: center;
     padding: 16px;
 }
+
+@media screen and (max-width: 500px){
+    header{
+        width: 100%;
+        text-align: center;
+        padding: 16px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    h1 {
+        margin-bottom: 20px;
+    }
+    h1 span {
+        margin-top: 20px;
+        font-size: 18px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* fin del header*/
 
 /* Inicio de la navbarra*/
 .nav{
@@ -64,7 +88,7 @@ header{
     color: #004caf;
   }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 750px){
     
     .nav ul {
         flex-wrap: wrap;
@@ -82,7 +106,6 @@ header{
         font-size: 1.4em;
     } 
 }
-
 /* Fin de la navbarra*/
 
 /* Inicio de la portada*/
