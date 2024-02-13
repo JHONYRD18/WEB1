@@ -21,7 +21,7 @@ html {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3.5em;
   margin: 0;
   text-align: center;
 }
@@ -31,19 +31,22 @@ span {
 }
         
 h2 {
-  font-size: 2.8em;
+  font-size: 3em;
   text-align: center;
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 2.5em;
   text-align: center;
 }
 
 P {
-  font-size: 1.45em;
+  font-size: 2em;
 }
 
+span {
+  font-size: 0.6em;
+}
 /* Inicio del header*/
 header {
   max-width: 100%;
@@ -63,8 +66,9 @@ header {
     margin: 20px 0;
   }
   h1 span {
-    margin: 3.5rem 0;
-    font-size: 18px;
+    margin: 4rem 0;
+    font-size: 25px;
+    font-weight: 500;
     align-items: center;
     position: absolute;
     left: 50%;
@@ -167,8 +171,12 @@ header {
 
   .contenido-portada h2,
   .contenido-portada p {
-    font-size: 1.2em;
+    font-size: 2rem;
     position: center;
+  }
+
+  .contenido-portada p {
+    font-weight: 400;
   }
 }
 @media screen and (max-width: 512px) {
@@ -176,6 +184,7 @@ header {
   .contenido-portada p {
     position: center;
     text-align: center;
+    font-size: 1.75rem;
   }
 }
 /* Fin de la portada*/
