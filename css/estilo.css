@@ -350,7 +350,7 @@ textarea {
 
 .mensaje span {
   font-size: 2rem;
-  color: #949494;
+  color: #3a3a3a;
 }
 
 @media (max-width: 768px) {
@@ -372,6 +372,10 @@ textarea {
     color: var(--nav);
     font-size: 1.15rem;
     font-weight: bold;
+  }
+  .mensaje span {
+    font-size: 1.5rem;
+    color: #302f2f;
   }
 
 }
